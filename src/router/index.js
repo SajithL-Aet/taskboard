@@ -18,7 +18,6 @@ const routes = [
   },
   {
     path: '/task/:id',
-    component: () => import('@/layouts/default/Default.vue'),
     children: [
       {
         path: '',

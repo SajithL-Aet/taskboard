@@ -150,7 +150,7 @@ export default {
       formData.value.label;
 
     const editTask = () => {
-      // Validate and add the task
+      // Validate and edit the task
       if (
         formData.value.title &&
         formData.value.description &&
